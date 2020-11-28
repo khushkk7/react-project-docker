@@ -16,7 +16,7 @@ RUN npm install
 # Copy the source code from your work directory to the container's work directory
 COPY . .
 
-# command to the created build
+# command to run the created build
 RUN npm run build
 
 #### Step 2
